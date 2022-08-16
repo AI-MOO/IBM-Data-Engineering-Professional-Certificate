@@ -8,8 +8,8 @@ IBM Data Engineering Professional Certificate
 | Sr. No | Course                                                               |Status|
 |:------:|----------------------------------------------------------------------------|:--:|
 | 01.     | [Introduction to Data Engineering]()|⏳|
-| 02.     | []()|| 
-| 03.     | []()||
+| 02.     | [Python for Data Science, AI & Development]()|| 
+| 03.     | [Python Project for Data Engineering]()||
 | 04.     | []()||
 | 05.     | []()|| 
 | 06.     | []()||
