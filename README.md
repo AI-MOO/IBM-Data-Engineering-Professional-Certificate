@@ -10,7 +10,7 @@ IBM Data Engineering Professional Certificate
 | 01.     | [Introduction to Data Engineering](/01_Introduction_to_Data_Engineering)|⏳|
 | 02.     | [Python for Data Science, AI & Development]()|| 
 | 03.     | [Python Project for Data Engineering]()||
-| 04.     | []()||
+| 04.     | [Hands-on Introduction to Linux Commands and Shell Scripting]()||
 | 05.     | []()|| 
 | 06.     | []()||
 | 07.     | []()||
