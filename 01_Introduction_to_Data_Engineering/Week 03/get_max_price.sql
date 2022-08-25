@@ -1,0 +1,1 @@
+select max(PRICE) as max_price from CARSALETABLE
