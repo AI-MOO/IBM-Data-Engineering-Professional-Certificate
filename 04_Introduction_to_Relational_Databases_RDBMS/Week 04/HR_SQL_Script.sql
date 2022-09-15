@@ -22,7 +22,7 @@ CREATE TABLE public.employees
 CREATE TABLE public.jobs
 (
     job_id character varying(10) NOT NULL,
-    job_title character varying(35),
+    job_title character varying(35) NOT NULL,
     min_salary numeric(8, 2),
     max_salary numeric(8, 2),
     PRIMARY KEY (job_id)
@@ -68,7 +68,7 @@ ALTER TABLE public.departments
 
 ALTER TABLE public.departments
     ADD FOREIGN KEY (manager_id)
-    REFERENCES public.employees (employee_id)
+    REFERENCES public.employees (manager_id)
     NOT VALID;
 
 END;
