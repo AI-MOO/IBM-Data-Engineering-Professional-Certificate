@@ -68,7 +68,7 @@ ALTER TABLE public.departments
 
 ALTER TABLE public.departments
     ADD FOREIGN KEY (manager_id)
-    REFERENCES public.employees (manager_id)
+    REFERENCES public.employees (employee_id)
     NOT VALID;
 
 END;
