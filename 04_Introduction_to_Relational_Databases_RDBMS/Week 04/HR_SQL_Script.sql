@@ -28,7 +28,7 @@ CREATE TABLE public.jobs
     PRIMARY KEY (job_id)
 );
 
-CREATE TABLE public."departments "
+CREATE TABLE public.departments
 (
     department_id integer NOT NULL,
     department_name character varying(30) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE public.locations
 
 ALTER TABLE public.employees
     ADD FOREIGN KEY (department_id)
-    REFERENCES public."departments " (department_id)
+    REFERENCES public.departments (department_id)
     NOT VALID;
 
 
@@ -60,13 +60,13 @@ ALTER TABLE public.employees
     NOT VALID;
 
 
-ALTER TABLE public."departments "
+ALTER TABLE public.departments
     ADD FOREIGN KEY (location_id)
     REFERENCES public.locations (location_id)
     NOT VALID;
 
 
-ALTER TABLE public."departments "
+ALTER TABLE public.departments
     ADD FOREIGN KEY (manager_id)
     REFERENCES public.employees (employee_id)
     NOT VALID;
