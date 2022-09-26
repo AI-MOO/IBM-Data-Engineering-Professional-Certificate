@@ -10,9 +10,9 @@ IBM Data Engineering Professional Certificate
 | 01.     | [Introduction to Data Engineering](/01_Introduction_to_Data_Engineering)|✅|
 | 02.     | [Python for Data Science, AI & Development](/02_Python_for_Data_Science_AI_%26_Development)|✅| 
 | 03.     | [Python Project for Data Engineering](/03_Python_Project_for_Data_Engineering)|✅|
-| 04.     | [Introduction to Relational Databases (RDBMS)](/04_Introduction_to_Relational_Databases_RDBMS)|⏳|
-| 05.     | [Databases and SQL for Data Science with Python]()|| 
-| 06.     | [Hands-on Introduction to Linux Commands and Shell Scripting]()||
+| 04.     | [Introduction to Relational Databases (RDBMS)](/04_Introduction_to_Relational_Databases_RDBMS)|✅|
+| 05.     | [Databases and SQL for Data Science with Python](✅)|| 
+| 06.     | [Hands-on Introduction to Linux Commands and Shell Scripting](⏳)||
 | 07.     | [Relational Database Administration (DBA)]()||
 | 08.     | [ETL and Data Pipelines with Shell, Airflow and Kafka]()||
 | 09.     | [Getting Started with Data Warehousing and BI Analytics]()||
